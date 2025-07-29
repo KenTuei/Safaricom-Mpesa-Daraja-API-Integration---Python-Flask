@@ -20,4 +20,4 @@ class client_payments_table(db.Model):
     MSISDN = db.Column(db.String(12), nullable=False)
     FirstName = db.Column(db.String(20), nullable=False)
     MiddleName = db.Column(db.String(20), nullable=True)
-    LastName = db.Column(db.String(20), nullable=False, nullable=False)
+    LastName = db.Column(db.String(20), nullable=False)
